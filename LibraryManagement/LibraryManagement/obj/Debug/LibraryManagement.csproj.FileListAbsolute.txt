@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.pdb
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.LoginForm.resources
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.Properties.Resources.resources
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.exe
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.BooksForm.resources
+C:\Users\Administrator\source\repos\ZhuYongCheng1999\zhu\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.mainForm.resources
