@@ -147,5 +147,25 @@ namespace LibraryManagement
                 return;
             }
         }
+
+        private void btBack_Click(object sender, EventArgs e)
+        {
+            foreach(DataGridViewRow dgvr in dgvBooks.Rows)
+            {
+                if(dgvr.Cells["sel"].Value.ToString()=="1")
+                {
+                    string name = dgvr.Cells["bname"].Value.ToString();
+                    int amount = int.Parse(dgvr.Cells["bNum"].Value.ToString());
+                    amount++;
+                    if (db.updateData("update books set bAmount='" + amount + "' where bname='" + name + "'") > 0)
+                    {
+
+                        MessageBox.Show("还书成功，当前书本还有"+amount+"本");
+                        bdBooks();
+                        
+                    }
+                }
+            }
+        }
     }
 }

@@ -44,12 +44,14 @@
             this.bPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.borrow = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.btBack = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBooks)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btBack);
             this.panel1.Controls.Add(this.btRefresh);
             this.panel1.Controls.Add(this.cbSel);
             this.panel1.Controls.Add(this.llSel);
@@ -96,7 +98,7 @@
             // 
             // btReturn
             // 
-            this.btReturn.Location = new System.Drawing.Point(444, 320);
+            this.btReturn.Location = new System.Drawing.Point(257, 349);
             this.btReturn.Name = "btReturn";
             this.btReturn.Size = new System.Drawing.Size(75, 23);
             this.btReturn.TabIndex = 3;
@@ -198,6 +200,16 @@
             this.borrow.Text = "借阅";
             this.borrow.UseColumnTextForLinkValue = true;
             // 
+            // btBack
+            // 
+            this.btBack.Location = new System.Drawing.Point(444, 319);
+            this.btBack.Name = "btBack";
+            this.btBack.Size = new System.Drawing.Size(75, 23);
+            this.btBack.TabIndex = 8;
+            this.btBack.Text = "还书";
+            this.btBack.UseVisualStyleBackColor = true;
+            this.btBack.Click += new System.EventHandler(this.btBack_Click);
+            // 
             // BooksForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -232,5 +244,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn bPrice;
         private System.Windows.Forms.DataGridViewTextBoxColumn bNum;
         private System.Windows.Forms.DataGridViewLinkColumn borrow;
+        private System.Windows.Forms.Button btBack;
     }
 }

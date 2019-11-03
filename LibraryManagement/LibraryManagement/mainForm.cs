@@ -57,7 +57,18 @@ namespace LibraryManagement
 
         private void 录入图书ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            foreach(Form f in this.MdiChildren)
+            {
+                if(f.Name=="AddForm")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            AddForm af = new AddForm();
+            af.MdiParent = this;
+            af.StartPosition = FormStartPosition.CenterParent;
+            af.Show();
         }
 
         private void 书籍一览ToolStripMenuItem_Click(object sender, EventArgs e)
